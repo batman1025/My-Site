@@ -4,7 +4,14 @@ body{
     font-family: 'Merriweather', serif;
     font-weight: bold;
     color: #40514e;
+    background-color: #e4f9f5;
+    background-size: 12.5rem ;
+    background-image: url(/pics/giphy1.gif);
+    background-repeat: no-repeat;
+    background-position: right top ;
+    background-attachment:fixed;
 }
+ 
 
 h1{
     color: #66bfbf;
@@ -55,35 +62,47 @@ a:hover{
 }
 .top-container{
     background-color: #e4f9f5;
-    position: relative;
-    padding-top: 100px;
+    margin-top: 6.25rem;
+    
+    
     
 }
 .middle-container{
-    margin: 100px 0 ;
+    
+    background-color: #ffffff;
+    padding-top: 3.125rem;
+    padding-bottom: 5rem;
+    
 }
 
 .bottom-container{
     background-color: #66bfbf;
-    padding: 50px 0 20px;
+    padding: 3.125rem 0 1.25rem;
 }
 
 
 .top-cloud{
     position: absolute;
-    right: 380px;
-    top: 190px;
+    right: 23.75rem;
+    top: 5rem;
+    border-bottom: 3px solid ;
+    border-image: linear-gradient(135deg, #ff0000 0%, #0000ff 25%, #00ff00 100%) 1;
+
 }
 
 .bottom-cloud{
     position: absolute;
     left: 400px;
     bottom: 500px;
+    border-bottom: 3px solid ;
+    border-image: linear-gradient(135deg, #00ff00 0%, #ff0000 25%, #0000ff 100%) 1;
 }
 .circular{
     height: 200px;
     width: 200px;
     border-radius: 100%;
+    box-shadow: 1px 100px 120px 185px #FFFFB5;
+
 }
 .curvey{
     
@@ -91,12 +110,15 @@ a:hover{
     border-radius: 70px;
     float: left;
     margin-right: 30px;
+    box-shadow: -100px -5px 300px 150px #B5EAEA;
+
 }
 .circ{
     width: 25%;
     border-radius: 100%;
     float: right;
     margin-left: 30px;
+    box-shadow: 100px -5px 300px 20px #DA0037;
 }
 
 .sun{
@@ -108,6 +130,7 @@ a:hover{
     background-color: #FFFAA4;
     position: relative;
     left: 37%;
+    
 
 }
 
@@ -159,4 +182,63 @@ a:hover{
     color: #eaf6f6;
     font-size: 0.75rem ;
     padding: 20px 0px;
+}
+
+.yoda{
+    position: relative;
+    background-size: 12.5rem ;
+    background-image: url(/pics/giphy1.gif);
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment:fixed;
+    margin: 0;
+    
+    
+
+}
+.yo{
+    background-size: 12.5rem ;
+    background-image: url(/pics/giphy1.gif);
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment:fixed;
+    margin: 0;
+    
+}
+.yoda2{
+    position: relative;
+    background-size: 18.75rem ;
+    background-image: url(/pics/giphy1.gif);
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-attachment:fixed;
+    margin: 0;
+    
+    
+
+}
+.yo1{
+    background-size: 18.75rem ;
+    background-image: url(/pics/giphy1.gif);
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-attachment:fixed;
+    margin: 0;
+    position: relative;
+}
+
+::-webkit-scrollbar{
+    width: 0.625rem;
+    
+}
+
+::-webkit-scrollbar-track{
+    background-image: url(/pics/giphy.gif);
+    border-radius: 2.15rem;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #e4f9f5;
+    border-radius: 1.25rem; 
+    width: 100px;
+    
 }
