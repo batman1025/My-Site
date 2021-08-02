@@ -212,7 +212,7 @@ a:hover{
 }
 
 ::-webkit-scrollbar-track{
-    background-image: url(/pics/giphy.gif);
+    background-image: url(pics/giphy.gif);
     border-radius: 2.15rem;
 }
 ::-webkit-scrollbar-thumb{
